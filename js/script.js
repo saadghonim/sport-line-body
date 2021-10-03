@@ -33,11 +33,13 @@ $(".mob_click").click(function(){
 $(".btn_search").click(function(){
   $(".div_input").toggle(600);
   $(".overlaysearch").toggle("500");
+  $("body").toggleClass("over");
   $(".icon-search").toggleClass("open-search close-search");
+
   
 });
 $(".overlaysearch").click(function(){
-  $(".btn_search").trigger("click")
+  $(".btn_search").trigger("click");
 })
 $('.btn-div').click(function () {
   $(".cats-dispaly").slideToggle(400);
