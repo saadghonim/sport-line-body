@@ -662,7 +662,7 @@ html[dir=rtl] .sub-list{
   justify-content: space-between;
 }
 html[dir=rtl] .sub-list{
-  right: 335px;
+  right: 380px;
 }
 
 .has-level-2:hover > .sub-list {
@@ -685,6 +685,13 @@ html[dir=rtl] .has-level-3>.cat-anchor>i,
 html[dir=rtl] .has-level-2>.cat-anchor>i{
   transform: scaleX(-1);
 }
+.mega-img img{
+  position: fixed;
+  top: 30px;
+  
+}
+html[dir=rtl] .mega-img img  {left: 40px;}
+html[dir=ltr] .mega-img img {right:40px}
 @media (min-width: 992px){
   .has-level-2>.cat-anchor>i::before {
       font-family: "Font Awesome 5 Free";
@@ -783,7 +790,13 @@ html[dir=rtl] .has-level-2>.cat-anchor>i{
     overflow-y: auto;
     display: none;
   }
-
+  .negamenu_parant{
+    transition: unset;
+    -webkit-transition: unset;
+    -moz-transition: unset;
+    -ms-transition: unset;
+    -o-transition: unset;
+}
   .close_nav {
     font-size: 16px;
     position: absolute;
@@ -2449,7 +2462,7 @@ text-align: center;
   height: 100%;
   width: 100%;
   background-color: #fff;
-  z-index: 1111;
+  z-index: 999999;
   display: flex;
   align-items: center;
   justify-content: center;
