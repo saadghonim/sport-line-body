@@ -483,6 +483,10 @@ html[dir="ltr"] .drop_menu {
 }
 .anc_nav:hover{
   color: #fe0100;
+  text-decoration: none;
+}
+.anc_nav:focus{
+  text-decoration: none;
 }
 /* megamenu */
 
@@ -622,6 +626,12 @@ html[dir=rtl] .cats-dispaly  li{
   align-items: center;
   padding: 0 15px 0 0;
   transition: all .3s ease-in-out;
+}
+.cat-anchor:hover{
+  text-decoration: none;
+}
+.cat-anchor:focus{
+  text-decoration: none;
 }
 html[dir=ltr] .cat-anchor{
   padding: 0 0 0 15px;
