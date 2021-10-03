@@ -36,7 +36,9 @@ $(".btn_search").click(function(){
   $(".icon-search").toggleClass("open-search close-search");
   
 });
-
+$(".overlaysearch").click(function(){
+  $(".btn_search").trigger("click")
+})
 $('.btn-div').click(function () {
   $(".cats-dispaly").slideToggle(400);
   if ($(window).width() <= 1199) {

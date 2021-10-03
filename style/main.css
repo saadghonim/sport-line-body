@@ -1487,7 +1487,7 @@ html[dir="rtl"]  .div_item .price p{
   ~~~~~~start feature~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~  */
 .feature_parant{
-  background-image: url("/images/sections/feature.jpg");
+  background-image: url("../images/sections/feature.jpg");
   background-attachment: fixed;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -2037,7 +2037,7 @@ html[dir="ltr"] .Testimonials .owl-carousel button.owl-dot {
         
 .Newsletter {
   padding: 50px 0;
-  background-image: url("../images/newsletter.jpg");
+  background-image: url("../images/Newsletter.jpg");
   background-attachment: fixed;
   background-size: 100% 100%;
 }
